@@ -12,26 +12,39 @@ This repository contains an analysis of web user analytics data. The dataset inc
 6. [Hypothesis Testing](#hypothesis-testing)
 7. [Linear Regression](#linear-regression)
 
-## Importing Libraries <a name="importing-libraries"></a>
-- Libraries such as NumPy, Pandas, Seaborn, and Matplotlib are imported for data manipulation, visualization, and statistical analysis.
 
-## Reading the DataFrame <a name="reading-the-dataframe"></a>
-- The dataset is read into a Pandas DataFrame.
+## 1. Importing Libraries <a name="importing-libraries"></a>
+In this section, we import the necessary Python libraries for data analysis, visualization, and statistical testing. Each library serves a specific purpose:
+- **NumPy:** Used for numerical computations and array operations.
+- **Pandas:** Used for data manipulation and analysis, especially for working with tabular data structures like DataFrames.
+- **Seaborn:** Built on top of Matplotlib, Seaborn provides high-level interface for drawing attractive and informative statistical graphics.
+- **Matplotlib:** A comprehensive library for creating static, interactive, and animated visualizations in Python.
+- **Tabulate:** Helps in printing nicely formatted tables from Python lists or Pandas DataFrames.
+- **Datetime:** Provides classes for manipulating dates and times.
+- **Scipy:** A library used for scientific computing and statistical analysis.
+- **Statsmodels:** Provides classes and functions for statistical models estimation and hypothesis testing.
 
-## Data Processing <a name="data-processing"></a>
-- Data processing steps include converting string columns to numeric, converting time strings to seconds, and handling missing values.
+## 2. Reading the DataFrame <a name="reading-the-dataframe"></a>
+This section involves reading the dataset into a Pandas DataFrame. The DataFrame is a tabular data structure that allows for easy manipulation and analysis of data.
 
-## EDA - Exploratory Data Analysis <a name="eda---exploratory-data-analysis"></a>
-- Exploratory data analysis includes examining data distributions, calculating summary statistics, checking for missing values, and visualizing trends over time and across different metrics.
+## 3. Data Processing <a name="data-processing"></a>
+Data processing steps involve cleaning and preparing the dataset for analysis. This may include converting string columns to numeric, handling missing values, and transforming data types.
 
-## Visualization <a name="visualization"></a>
-- Visualizations are created to better understand trends, distributions, and relationships between variables in the dataset.
+## 4. EDA - Exploratory Data Analysis <a name="eda---exploratory-data-analysis"></a>
+Exploratory Data Analysis (EDA) is a critical step to understand the dataset's characteristics and uncover patterns, anomalies, or relationships within the data. Common tasks in EDA include:
+- Calculating summary statistics such as mean, median, and mode.
+- Visualizing distributions of variables using histograms, box plots, or density plots.
+- Examining relationships between variables through scatter plots, pair plots, or correlation matrices.
+- Investigating trends over time or across different categories using line plots or bar plots.
 
-## Hypothesis Testing <a name="hypothesis-testing"></a>
-- Several hypotheses are tested using statistical methods such as t-tests, chi-square tests, normality tests, and correlation tests.
+## 5. Visualization <a name="visualization"></a>
+Visualization plays a crucial role in understanding complex data and communicating insights effectively. This section creates various visualizations to illustrate trends, distributions, and relationships present in the dataset.
 
-## Linear Regression <a name="linear-regression"></a>
-- Linear regression models are built to predict revenue based on various predictor variables such as transactions, quantity sold, pageviews, sessions, new users, and users. Model performance and significance of predictor variables are evaluated.
+## 6. Hypothesis Testing <a name="hypothesis-testing"></a>
+Hypothesis testing is used to make inferences about population parameters based on sample data. This section formulates null and alternative hypotheses and applies statistical tests to evaluate their validity. Common hypothesis tests include t-tests, chi-square tests, normality tests, and correlation tests.
+
+## 7. Linear Regression <a name="linear-regression"></a>
+Linear regression is a statistical technique used to model the relationship between a dependent variable and one or more independent variables. In this section, linear regression models are built to predict revenue based on predictor variables such as transactions, quantity sold, pageviews, sessions, new users, and users. Model performance and significance of predictor variables are assessed using regression summary statistics.
 
 ## Conclusion
 This analysis provides insights into web user behavior and factors influencing revenue generation. It can be used to optimize marketing strategies, improve website usability, and drive business growth.
